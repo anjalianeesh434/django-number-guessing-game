@@ -1,0 +1,15 @@
+{
+    "python.pythonPath": "env/bin/python",              // Mac/Linux
+    // "python.pythonPath": "env\\Scripts\\python.exe", // Windows
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true
+  }
+  
